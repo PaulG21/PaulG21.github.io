@@ -322,7 +322,7 @@ img {
 }
 .progress-bar-danger { background: #eb5424; }
 .tm-progress-label {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   padding-top: 10px;
   text-transform: uppercase;
@@ -367,8 +367,8 @@ img {
 .pinterest:hover {
   background: #202020;
 }
-.facebook { background: #3b5998; }
-.twitter { background: #55acee; }
+.facebook { background: #333; }
+.twitter { background: #3b5998; }
 .pinterest { background: #cc2127; }
 .media {
   padding: 80px 40px 80px 40px;
@@ -380,7 +380,7 @@ img {
   display: inline-block;
   text-decoration: none;
 }
-.tm-social .media .fa {
+.tm-social .media .fab {
   background: #ffffff;
   border-radius: 2px;
   color: #707070;
