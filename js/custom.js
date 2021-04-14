@@ -74,16 +74,16 @@ jQuery(document).ready(function($){
 
     function mainNav() {
         var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
-        if (top > 40) $('.sticky-navigation').stop().animate({
+		console.log(top)
+        if (top > 30) $('.sticky-navigation').stop().animate({
             "opacity": '1',
             "top": '0'
-        });
+        }, 90, "linear");
         else $('.sticky-navigation').stop().animate({
             "opacity": '0',
             "top": '-75'
-        });
+        }, 350, "linear");
     }
-
 
 // HIDE MOBILE MENU AFTER CLIKING ON A LINK
 
